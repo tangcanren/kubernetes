@@ -33,7 +33,7 @@ spec:
           - name: SERVER_NAME
             value: kibana-logging
           - name: SERVER_BASEPATH
-            value: /api/v1/namespaces/kube-system/services/kibana-logging/proxy
+            value: /api/v1/namespaces/gulimail/services/kibana-logging/proxy
           - name: SERVER_REWRITEBASEPATH
             value: "false"
         ports:
